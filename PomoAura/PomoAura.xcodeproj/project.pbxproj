@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF4602B2E4E961A008453B7 /* PomoAuraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4602A2E4E961A008453B7 /* PomoAuraApp.swift */; };
+		CEF4602D2E4E961A008453B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4602C2E4E961A008453B7 /* ContentView.swift */; };
+		CEF460312E4E961C008453B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF460302E4E961C008453B7 /* Assets.xcassets */; };
+		CEF4603F2E4E961D008453B7 /* PomoAuraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4603E2E4E961D008453B7 /* PomoAuraTests.swift */; };
+		CEF460492E4E961D008453B7 /* PomoAuraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF460482E4E961D008453B7 /* PomoAuraUITests.swift */; };
+		CEF4604B2E4E961D008453B7 /* PomoAuraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4604A2E4E961D008453B7 /* PomoAuraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF4603B2E4E961D008453B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF4601F2E4E9619008453B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF460262E4E9619008453B7;
+			remoteInfo = PomoAura;
+		};
+		CEF460452E4E961D008453B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF4601F2E4E9619008453B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF460262E4E9619008453B7;
+			remoteInfo = PomoAura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF460272E4E9619008453B7 /* PomoAura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoAura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF4602A2E4E961A008453B7 /* PomoAuraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoAuraApp.swift; sourceTree = "<group>"; };
+		CEF4602C2E4E961A008453B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEF460302E4E961C008453B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF460322E4E961C008453B7 /* PomoAura.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PomoAura.entitlements; sourceTree = "<group>"; };
+		CEF4603A2E4E961D008453B7 /* PomoAuraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoAuraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF4603E2E4E961D008453B7 /* PomoAuraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoAuraTests.swift; sourceTree = "<group>"; };
+		CEF460442E4E961D008453B7 /* PomoAuraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoAuraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF460482E4E961D008453B7 /* PomoAuraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoAuraUITests.swift; sourceTree = "<group>"; };
+		CEF4604A2E4E961D008453B7 /* PomoAuraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoAuraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF460242E4E9619008453B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460372E4E961D008453B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460412E4E961D008453B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF4601E2E4E9619008453B7 = {
+			isa = PBXGroup;
+			children = (
+				CEF460292E4E9619008453B7 /* PomoAura */,
+				CEF4603D2E4E961D008453B7 /* PomoAuraTests */,
+				CEF460472E4E961D008453B7 /* PomoAuraUITests */,
+				CEF460282E4E9619008453B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF460282E4E9619008453B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF460272E4E9619008453B7 /* PomoAura.app */,
+				CEF4603A2E4E961D008453B7 /* PomoAuraTests.xctest */,
+				CEF460442E4E961D008453B7 /* PomoAuraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF460292E4E9619008453B7 /* PomoAura */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4602A2E4E961A008453B7 /* PomoAuraApp.swift */,
+				CEF4602C2E4E961A008453B7 /* ContentView.swift */,
+				CEF460302E4E961C008453B7 /* Assets.xcassets */,
+				CEF460322E4E961C008453B7 /* PomoAura.entitlements */,
+			);
+			path = PomoAura;
+			sourceTree = "<group>";
+		};
+		CEF4603D2E4E961D008453B7 /* PomoAuraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4603E2E4E961D008453B7 /* PomoAuraTests.swift */,
+			);
+			path = PomoAuraTests;
+			sourceTree = "<group>";
+		};
+		CEF460472E4E961D008453B7 /* PomoAuraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF460482E4E961D008453B7 /* PomoAuraUITests.swift */,
+				CEF4604A2E4E961D008453B7 /* PomoAuraUITestsLaunchTests.swift */,
+			);
+			path = PomoAuraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF460262E4E9619008453B7 /* PomoAura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF4604E2E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAura" */;
+			buildPhases = (
+				CEF460232E4E9619008453B7 /* Sources */,
+				CEF460242E4E9619008453B7 /* Frameworks */,
+				CEF460252E4E9619008453B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomoAura;
+			productName = PomoAura;
+			productReference = CEF460272E4E9619008453B7 /* PomoAura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF460392E4E961D008453B7 /* PomoAuraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF460512E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAuraTests" */;
+			buildPhases = (
+				CEF460362E4E961D008453B7 /* Sources */,
+				CEF460372E4E961D008453B7 /* Frameworks */,
+				CEF460382E4E961D008453B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF4603C2E4E961D008453B7 /* PBXTargetDependency */,
+			);
+			name = PomoAuraTests;
+			productName = PomoAuraTests;
+			productReference = CEF4603A2E4E961D008453B7 /* PomoAuraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF460432E4E961D008453B7 /* PomoAuraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF460542E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAuraUITests" */;
+			buildPhases = (
+				CEF460402E4E961D008453B7 /* Sources */,
+				CEF460412E4E961D008453B7 /* Frameworks */,
+				CEF460422E4E961D008453B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF460462E4E961D008453B7 /* PBXTargetDependency */,
+			);
+			name = PomoAuraUITests;
+			productName = PomoAuraUITests;
+			productReference = CEF460442E4E961D008453B7 /* PomoAuraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF4601F2E4E9619008453B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEF460262E4E9619008453B7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEF460392E4E961D008453B7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEF460262E4E9619008453B7;
+					};
+					CEF460432E4E961D008453B7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEF460262E4E9619008453B7;
+					};
+				};
+			};
+			buildConfigurationList = CEF460222E4E9619008453B7 /* Build configuration list for PBXProject "PomoAura" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF4601E2E4E9619008453B7;
+			productRefGroup = CEF460282E4E9619008453B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF460262E4E9619008453B7 /* PomoAura */,
+				CEF460392E4E961D008453B7 /* PomoAuraTests */,
+				CEF460432E4E961D008453B7 /* PomoAuraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF460252E4E9619008453B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF460312E4E961C008453B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460382E4E961D008453B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460422E4E961D008453B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF460232E4E9619008453B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF4602D2E4E961A008453B7 /* ContentView.swift in Sources */,
+				CEF4602B2E4E961A008453B7 /* PomoAuraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460362E4E961D008453B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF4603F2E4E961D008453B7 /* PomoAuraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF460402E4E961D008453B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF4604B2E4E961D008453B7 /* PomoAuraUITestsLaunchTests.swift in Sources */,
+				CEF460492E4E961D008453B7 /* PomoAuraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF4603C2E4E961D008453B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF460262E4E9619008453B7 /* PomoAura */;
+			targetProxy = CEF4603B2E4E961D008453B7 /* PBXContainerItemProxy */;
+		};
+		CEF460462E4E961D008453B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF460262E4E9619008453B7 /* PomoAura */;
+			targetProxy = CEF460452E4E961D008453B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEF4604C2E4E961D008453B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF4604D2E4E961D008453B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CEF4604F2E4E961D008453B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PomoAura/PomoAura.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF460502E4E961D008453B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PomoAura/PomoAura.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF460522E4E961D008453B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAuraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoAura.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomoAura";
+			};
+			name = Debug;
+		};
+		CEF460532E4E961D008453B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAuraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoAura.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomoAura";
+			};
+			name = Release;
+		};
+		CEF460552E4E961D008453B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAuraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoAura;
+			};
+			name = Debug;
+		};
+		CEF460562E4E961D008453B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fatimah520.PomoAura.PomoAuraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoAura;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF460222E4E9619008453B7 /* Build configuration list for PBXProject "PomoAura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF4604C2E4E961D008453B7 /* Debug */,
+				CEF4604D2E4E961D008453B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF4604E2E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF4604F2E4E961D008453B7 /* Debug */,
+				CEF460502E4E961D008453B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF460512E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAuraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF460522E4E961D008453B7 /* Debug */,
+				CEF460532E4E961D008453B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF460542E4E961D008453B7 /* Build configuration list for PBXNativeTarget "PomoAuraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF460552E4E961D008453B7 /* Debug */,
+				CEF460562E4E961D008453B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF4601F2E4E9619008453B7 /* Project object */;
+}

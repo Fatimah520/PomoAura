@@ -1,21 +1,20 @@
 //
-//  ContentView.swift
-//  PomoAura
-//
-//  Created by user on 8/14/25.
-//
+// Creator: Fatimah Abdolcader
+// Date: August 20
+// Description: This is a pomodoro timer designed to improve healthy study habits
 
 import SwiftUI
 
 struct ContentView: View {
-    @State private var secondsRemaining = 25 * 60
-
-    var body: some View {
-        Text("\(secondsRemaining / 60):\((secondsRemaining % 60), specifier: "%02d")")
-            .font(.system(size: 56, weight: .semibold, design: .rounded))
-            .monospacedDigit()
-            .padding()
+    var body: some View{
+        VStack {
+            Text("Hello Timer")
+        }
     }
 }
 
-#Preview { ContentView() }
+
+// How content is viewed
+#Preview{
+    ContentView()
+}

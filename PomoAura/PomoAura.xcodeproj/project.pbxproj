@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CED830F12E57B1460034F005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED830F02E57B1460034F005 /* Preview Assets.xcassets */; };
 		CEF4602B2E4E961A008453B7 /* PomoAuraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4602A2E4E961A008453B7 /* PomoAuraApp.swift */; };
 		CEF4602D2E4E961A008453B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4602C2E4E961A008453B7 /* ContentView.swift */; };
 		CEF460312E4E961C008453B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF460302E4E961C008453B7 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CED830F02E57B1460034F005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEF460272E4E9619008453B7 /* PomoAura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoAura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF4602A2E4E961A008453B7 /* PomoAuraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoAuraApp.swift; sourceTree = "<group>"; };
 		CEF4602C2E4E961A008453B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,9 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CED830ED2E57AF760034F005 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED830F02E57B1460034F005 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		CEF4601E2E4E9619008453B7 = {
 			isa = PBXGroup;
 			children = (
+				CED830ED2E57AF760034F005 /* Preview Content */,
 				CEF460292E4E9619008453B7 /* PomoAura */,
 				CEF4603D2E4E961D008453B7 /* PomoAuraTests */,
 				CEF460472E4E961D008453B7 /* PomoAuraUITests */,
@@ -222,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED830F12E57B1460034F005 /* Preview Assets.xcassets in Resources */,
 				CEF460312E4E961C008453B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

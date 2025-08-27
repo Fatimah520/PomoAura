@@ -8,15 +8,15 @@ import SwiftUI
 struct ContentView: View {
     
     // State variable
-    @State private var count = 0
+    @State private var time = 25 * 60
     var body: some View{
         VStack {
-            // Displaying the number, shows the count ( which is 0)
-            Text("Count: \(count)")
+            // Displaying the number, shows the count ( which is converted to 25)
+            Text("Count: \(time / 60)")
             // Start button
             Button("Add 1") {
                 // when button is tapped, add 1
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/count += 1
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/time += 1
             }
             // Pause Button
             Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
